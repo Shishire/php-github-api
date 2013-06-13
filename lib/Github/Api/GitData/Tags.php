@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api\GitData;
+namespace KnpLabs\Github\Api\GitData;
 
-use Github\Api\AbstractApi;
-use Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Api\AbstractApi;
+use KnpLabs\Github\Exception\MissingArgumentException;
 
 /**
  * @link   http://developer.github.com/v3/git/tags/

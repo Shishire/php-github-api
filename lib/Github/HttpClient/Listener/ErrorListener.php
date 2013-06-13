@@ -1,14 +1,14 @@
 <?php
 
-namespace Github\HttpClient\Listener;
+namespace KnpLabs\Github\HttpClient\Listener;
 
-use Buzz\Listener\ListenerInterface;
-use Buzz\Message\MessageInterface;
-use Buzz\Message\RequestInterface;
-use Github\Exception\ApiLimitExceedException;
-use Github\Exception\ErrorException;
-use Github\Exception\RuntimeException;
-use Github\Exception\ValidationFailedException;
+use kriswallsmith\Buzz\Listener\ListenerInterface;
+use kriswallsmith\Buzz\Message\MessageInterface;
+use kriswallsmith\Buzz\Message\RequestInterface;
+use KnpLabs\Github\Exception\ApiLimitExceedException;
+use KnpLabs\Github\Exception\ErrorException;
+use KnpLabs\Github\Exception\RuntimeException;
+use KnpLabs\Github\Exception\ValidationFailedException;
 
 /**
  * @author Joseph Bielawski <stloyd@gmail.com>

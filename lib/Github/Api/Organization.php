@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\Organization\Members;
-use Github\Api\Organization\Teams;
+use KnpLabs\Github\Api\Organization\Members;
+use KnpLabs\Github\Api\Organization\Teams;
 
 /**
  * Getting organization information and managing authenticated organization account information.

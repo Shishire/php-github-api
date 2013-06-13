@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\PullRequest\Comments;
-use Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Api\PullRequest\Comments;
+use KnpLabs\Github\Exception\MissingArgumentException;
 
 /**
  * API for accessing Pull Requests from your Git/Github repositories.

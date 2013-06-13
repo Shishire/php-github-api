@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\HttpClient;
+namespace KnpLabs\Github\HttpClient;
 
-use Github\HttpClient\Cache\CacheInterface;
-use Github\HttpClient\Cache\FilesystemCache;
+use KnpLabs\Github\HttpClient\Cache\CacheInterface;
+use KnpLabs\Github\HttpClient\Cache\FilesystemCache;
 
 /**
  * Performs requests on GitHub API using If-Modified-Since headers.

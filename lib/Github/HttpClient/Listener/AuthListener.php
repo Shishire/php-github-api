@@ -1,14 +1,14 @@
 <?php
 
-namespace Github\HttpClient\Listener;
+namespace KnpLabs\Github\HttpClient\Listener;
 
-use Github\Client;
-use Github\Exception\InvalidArgumentException;
+use KnpLabs\Github\Client;
+use KnpLabs\Github\Exception\InvalidArgumentException;
 
-use Buzz\Listener\ListenerInterface;
-use Buzz\Message\MessageInterface;
-use Buzz\Message\RequestInterface;
-use Buzz\Util\Url;
+use kriswallsmith\Buzz\Listener\ListenerInterface;
+use kriswallsmith\Buzz\Message\MessageInterface;
+use kriswallsmith\Buzz\Message\RequestInterface;
+use kriswallsmith\Buzz\Util\Url;
 
 /**
  * @author Joseph Bielawski <stloyd@gmail.com>

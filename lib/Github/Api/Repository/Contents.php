@@ -1,11 +1,11 @@
 <?php
 
-namespace Github\Api\Repository;
+namespace KnpLabs\Github\Api\Repository;
 
-use Github\Api\AbstractApi;
-use Github\Exception\MissingArgumentException;
-use Github\Exception\InvalidArgumentException;
-use Github\Exception\ErrorException;
+use KnpLabs\Github\Api\AbstractApi;
+use KnpLabs\Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Exception\InvalidArgumentException;
+use KnpLabs\Github\Exception\ErrorException;
 
 /**
  * @link   http://developer.github.com/v3/repos/contents/

@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\AbstractApi;
-use Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Api\AbstractApi;
+use KnpLabs\Github\Exception\MissingArgumentException;
 
 /**
  * Creating, editing, deleting and listing gists

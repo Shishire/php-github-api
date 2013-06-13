@@ -1,19 +1,19 @@
 <?php
 
-namespace Github\HttpClient;
+namespace KnpLabs\Github\HttpClient;
 
-use Buzz\Client\ClientInterface;
-use Buzz\Message\MessageInterface;
-use Buzz\Message\RequestInterface;
-use Buzz\Listener\ListenerInterface;
+use kriswallsmith\Buzz\Client\ClientInterface;
+use kriswallsmith\Buzz\Message\MessageInterface;
+use kriswallsmith\Buzz\Message\RequestInterface;
+use kriswallsmith\Buzz\Listener\ListenerInterface;
 
-use Github\Exception\ErrorException;
-use Github\Exception\RuntimeException;
-use Github\HttpClient\Listener\AuthListener;
-use Github\HttpClient\Listener\ErrorListener;
-use Github\HttpClient\Message\Request;
-use Github\HttpClient\Message\Response;
-use Buzz\Client\Curl;
+use KnpLabs\Github\Exception\ErrorException;
+use KnpLabs\Github\Exception\RuntimeException;
+use KnpLabs\Github\HttpClient\Listener\AuthListener;
+use KnpLabs\Github\HttpClient\Listener\ErrorListener;
+use KnpLabs\Github\HttpClient\Message\Request;
+use KnpLabs\Github\HttpClient\Message\Response;
+use kriswallsmith\Buzz\Client\Curl;
 
 /**
  * Performs requests on GitHub API. API documentation should be self-explanatory.

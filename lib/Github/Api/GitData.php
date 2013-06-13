@@ -1,12 +1,12 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\GitData\Blobs;
-use Github\Api\GitData\Commits;
-use Github\Api\GitData\References;
-use Github\Api\GitData\Tags;
-use Github\Api\GitData\Trees;
+use KnpLabs\Github\Api\GitData\Blobs;
+use KnpLabs\Github\Api\GitData\Commits;
+use KnpLabs\Github\Api\GitData\References;
+use KnpLabs\Github\Api\GitData\Tags;
+use KnpLabs\Github\Api\GitData\Trees;
 
 /**
  * Getting full versions of specific files and trees in your Git repositories.

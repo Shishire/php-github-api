@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\Api\Organization;
+namespace KnpLabs\Github\Api\Organization;
 
-use Github\Api\AbstractApi;
+use KnpLabs\Github\Api\AbstractApi;
 
 /**
  * @link   http://developer.github.com/v3/orgs/members/

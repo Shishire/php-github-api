@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\HttpClient\Cache;
+namespace KnpLabs\Github\HttpClient\Cache;
 
-use Github\HttpClient\Message\Response;
+use KnpLabs\Github\HttpClient\Message\Response;
 
 /**
  * Caches github api responses

@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api\Issue;
+namespace KnpLabs\Github\Api\Issue;
 
-use Github\Api\AbstractApi;
-use Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Api\AbstractApi;
+use KnpLabs\Github\Exception\MissingArgumentException;
 
 /**
  * @link   http://developer.github.com/v3/issues/comments/

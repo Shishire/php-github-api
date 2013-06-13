@@ -1,14 +1,14 @@
 <?php
 
-namespace Github;
+namespace KnpLabs\Github;
 
-use Buzz\Client\Curl;
-use Buzz\Client\ClientInterface;
+use kriswallsmith\Buzz\Client\Curl;
+use kriswallsmith\Buzz\Client\ClientInterface;
 
-use Github\Api\ApiInterface;
-use Github\Exception\InvalidArgumentException;
-use Github\HttpClient\HttpClient;
-use Github\HttpClient\HttpClientInterface;
+use KnpLabs\Github\Api\ApiInterface;
+use KnpLabs\Github\Exception\InvalidArgumentException;
+use KnpLabs\Github\HttpClient\HttpClient;
+use KnpLabs\Github\HttpClient\HttpClientInterface;
 
 /**
  * Simple yet very cool PHP GitHub client

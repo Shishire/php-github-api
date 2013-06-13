@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\Api\Issue;
+namespace KnpLabs\Github\Api\Issue;
 
-use Github\Api\AbstractApi;
+use KnpLabs\Github\Api\AbstractApi;
 
 /**
  * @link   http://developer.github.com/v3/issues/events/

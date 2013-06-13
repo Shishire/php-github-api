@@ -1,17 +1,17 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\Repository\Collaborators;
-use Github\Api\Repository\Comments;
-use Github\Api\Repository\Commits;
-use Github\Api\Repository\Contents;
-use Github\Api\Repository\DeployKeys;
-use Github\Api\Repository\Downloads;
-use Github\Api\Repository\Forks;
-use Github\Api\Repository\Hooks;
-use Github\Api\Repository\Labels;
-use Github\Api\Repository\Statuses;
+use KnpLabs\Github\Api\Repository\Collaborators;
+use KnpLabs\Github\Api\Repository\Comments;
+use KnpLabs\Github\Api\Repository\Commits;
+use KnpLabs\Github\Api\Repository\Contents;
+use KnpLabs\Github\Api\Repository\DeployKeys;
+use KnpLabs\Github\Api\Repository\Downloads;
+use KnpLabs\Github\Api\Repository\Forks;
+use KnpLabs\Github\Api\Repository\Hooks;
+use KnpLabs\Github\Api\Repository\Labels;
+use KnpLabs\Github\Api\Repository\Statuses;
 
 /**
  * Searching repositories, getting repository information

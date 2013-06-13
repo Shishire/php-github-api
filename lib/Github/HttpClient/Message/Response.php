@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\HttpClient\Message;
+namespace KnpLabs\Github\HttpClient\Message;
 
-use Buzz\Message\Response as BaseResponse;
-use Github\Exception\ApiLimitExceedException;
+use kriswallsmith\Buzz\Message\Response as BaseResponse;
+use KnpLabs\Github\Exception\ApiLimitExceedException;
 
 class Response extends BaseResponse
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Github\Api\CurrentUser;
+namespace KnpLabs\Github\Api\CurrentUser;
 
-use Github\Api\AbstractApi;
-use Github\Exception\InvalidArgumentException;
+use KnpLabs\Github\Api\AbstractApi;
+use KnpLabs\Github\Exception\InvalidArgumentException;
 
 /**
  * @link   http://developer.github.com/v3/users/emails/

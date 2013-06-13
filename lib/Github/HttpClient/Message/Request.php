@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\HttpClient\Message;
+namespace KnpLabs\Github\HttpClient\Message;
 
-use Buzz\Message\Request as BaseRequest;
+use kriswallsmith\Buzz\Message\Request as BaseRequest;
 
 class Request extends BaseRequest
 {

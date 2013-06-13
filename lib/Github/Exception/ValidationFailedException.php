@@ -1,6 +1,6 @@
 <?php
 
-namespace Github\Exception;
+namespace KnpLabs\Github\Exception;
 
 /**
  * ValidationFailedException

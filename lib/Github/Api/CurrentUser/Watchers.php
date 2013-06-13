@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\Api\CurrentUser;
+namespace KnpLabs\Github\Api\CurrentUser;
 
-use Github\Api\AbstractApi;
+use KnpLabs\Github\Api\AbstractApi;
 
 /**
  * @link   http://developer.github.com/v3/repos/watching/

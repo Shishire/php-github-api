@@ -1,12 +1,12 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\Issue\Comments;
-use Github\Api\Issue\Events;
-use Github\Api\Issue\Labels;
-use Github\Api\Issue\Milestones;
-use Github\Exception\MissingArgumentException;
+use KnpLabs\Github\Api\Issue\Comments;
+use KnpLabs\Github\Api\Issue\Events;
+use KnpLabs\Github\Api\Issue\Labels;
+use KnpLabs\Github\Api\Issue\Milestones;
+use KnpLabs\Github\Exception\MissingArgumentException;
 
 /**
  * Listing issues, searching, editing and closing your projects issues.

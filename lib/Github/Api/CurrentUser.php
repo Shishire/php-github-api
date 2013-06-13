@@ -1,12 +1,12 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Api\CurrentUser\DeployKeys;
-use Github\Api\CurrentUser\Emails;
-use Github\Api\CurrentUser\Followers;
-use Github\Api\CurrentUser\Notifications;
-use Github\Api\CurrentUser\Watchers;
+use KnpLabs\Github\Api\CurrentUser\DeployKeys;
+use KnpLabs\Github\Api\CurrentUser\Emails;
+use KnpLabs\Github\Api\CurrentUser\Followers;
+use KnpLabs\Github\Api\CurrentUser\Notifications;
+use KnpLabs\Github\Api\CurrentUser\Watchers;
 
 /**
  * @link   http://developer.github.com/v3/users/

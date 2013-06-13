@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\HttpClient;
+namespace KnpLabs\Github\HttpClient;
 
-use Github\Exception\InvalidArgumentException;
+use KnpLabs\Github\Exception\InvalidArgumentException;
 
 /**
  * Performs requests on GitHub API. API documentation should be self-explanatory.

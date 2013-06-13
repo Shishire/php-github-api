@@ -1,6 +1,6 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
 /**
  * Searching users, getting user information

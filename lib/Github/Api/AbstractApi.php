@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\Api;
+namespace KnpLabs\Github\Api;
 
-use Github\Client;
+use KnpLabs\Github\Client;
 
 /**
  * Abstract class for Api classes

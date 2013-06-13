@@ -1,8 +1,8 @@
 <?php
 
-namespace Github\Api\Repository;
+namespace KnpLabs\Github\Api\Repository;
 
-use Github\Api\AbstractApi;
+use KnpLabs\Github\Api\AbstractApi;
 
 /**
  * @link   http://developer.github.com/v3/repos/collaborators/
